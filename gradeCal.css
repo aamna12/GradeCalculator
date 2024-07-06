@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: monospace;
+}
+body{
+    background-color:rgb(1, 20, 20);
+    color:white;
+}
+
+h1{
+    text-align: center;
+    margin:20px;
+    text-decoration-line: underline;
+}
+
+h3{
+    margin:15px;
+}
+
+.content{
+    height:300px;
+    width:1000px;
+    display: flex;
+    
+}
+
+.subjects{
+    height:400px;
+    width:300px;
+}
+
+.subjects p{
+    margin:28px;
+    margin-left: 150px;
+
+}
+
+.input{
+    height:400px;
+    width:500px;
+}
+
+.input input{
+    margin:20px;
+    display:block;
+    padding:3px;
+}
+
+.percentage{
+    height:40px;
+    width:180px;
+    font-size:15px;
+    margin-left:140px;
+    display:block;
+    font-weight: bold;
+}
+
+.show{
+    font-size: 20px;
+    color:rgb(185, 183, 183);
+    margin-top:25px;
+    margin-left:40px;
+}
+
+.hide{
+    display: none;
+}
